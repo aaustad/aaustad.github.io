@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <title></title>
     </head>
@@ -20,11 +23,35 @@
         <section class="heroImg">
             <div class="content">
                 <img>
-                <p>About Me.</p>
+                <p id="aboutme">About Me</p>
                 <p>Hello, I'm Allison Austad, a passionate UI/UX designer based in Seattle. With a foundation rooted in psychology and graphic design, I bring a holistic approach to crafting user-centered experiences. By harnessing empathy, I delve into users' perspectives to uncover insights and deliver solutions that resonate deeply while seamlessly blending functionality with aesthetics.</p>
-                <button>Download Resume</button>
+                <button type="submit" onclick="window.location.href='images/cat.webp'">Download!</button>
             </div>
         </section>
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="card-title-container">
+                    <img class="card-icon" src="images/Trust.svg">
+                    <p class="card-title">Empathetic Design</p> 
+                </div>
+                <p>Empathy in my UI/UX design process, immersing myself in users' worlds through interviews and observations. This ensures my designs are not only functional but deeply resonate with users' needs and emotions.</p>
+            </div>
+            <div class="card card-2">
+                <div class="card-title-container">
+                    <img class="card-icon" src="images/Brainstorm Skill.svg">
+                    <p class="card-title">User-Centered Problem Solver</p> 
+                </div>
+                <p>With backgrounds in psychology and design, I excel at crafting solutions that seamlessly blend functionality with aesthetics. By putting users first, I ensure every interaction is intuitive, meaningful, and delightful.</p>
+            </div>
+            <div class="card card-3">
+                <div class="card-title-container">
+                    <img class="card-icon" src="images/Critical Thinking.svg">
+                    <p class="card-title">Psychology-Infused Design</p> 
+                </div>
+                <p>Leveraging psychology and design expertise, I create interfaces that captivate and engage users on a subconscious level. Through careful attention to detail and visual elements, my designs evoke desired emotions and foster lasting connections with the audience.
+                </p>
+            </div>
+        </div>
         <footer>
             <ul class="footer-list">
                 <li class="inline-block">ABOUT</li> 
